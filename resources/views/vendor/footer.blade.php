@@ -1,0 +1,1 @@
+    <div class="footer">Ⓒ <?php echo date('Y'); ?> BITQUEEN INC. All Rights Reserved.</div>
