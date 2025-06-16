@@ -1,3 +1,48 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:364384e183b5b68a8e72ecf1c973dfb5a5b45001a62958b9a2c810d5695704f6
-size 1036
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "メイリオ", "Hiragino Kaku Gothic Pro", Meiryo, "ヒラギノ角ゴ Pro W3", "MS PGothic", "MS UI Gothic", Helvetica, Arial, sans-serif;
+    background-color: #fff;
+}
+
+img {
+    border: 0;
+}
+
+.contents_top {
+    width: 100%;
+    background-image: url("/images/casting/top_bg.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+.contents_bottom {
+    width: 100%;
+    background-image: url("/images/casting/bottom_bg.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+.cv_item {
+    display: inline-block;
+    *display: inline;
+    margin-right: 2px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.share_area {
+    height: 400px;
+    line-height: 350px;
+}
+
+.share_contents {
+    text-align: center;
+}

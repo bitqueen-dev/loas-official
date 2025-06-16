@@ -1,3 +1,130 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2cbb533bea23cedc533d80f2f3a8401427e93442dbc64e3e2a1bc960ff541ef4
-size 2107
+@-ms-viewport {
+  width: device-width;
+  height: device-height;
+}
+
+body {
+  margin:0px;
+  padding:0px;
+}
+
+.clock_days {
+  background-image:url("/images/timer_bg.png");
+  width:190px;
+  height:190px;
+  background-repeat: no-repeat;
+  float:left;
+  margin-right: 10px;
+  margin-left: 5px;
+  position: relative;
+}
+.clock_hours {
+  background-image:url("/images/timer_bg.png");
+  width:190px;
+  height:190px;
+  background-repeat: no-repeat;
+  float:left;
+  margin-right: 10px;
+  position: relative;
+}
+.clock_minutes {
+  background-image:url("/images/timer_bg.png");
+  width:190px;
+  height:190px;
+  background-repeat: no-repeat;
+  float:left;
+  margin-right: 10px;
+  position: relative;
+}
+.clock_seconds {
+  background-image:url("/images/timer_bg.png");
+  width:190px;
+  height:190px;
+  background-repeat: no-repeat;
+  float:left;
+  position: relative;
+}
+
+h1 {
+  color:#616161;
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size:30px;
+  text-align: center;
+  margin-top:200px;
+  font-weight:bold;
+}
+h4 {
+  color:#909090;
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size:18px;
+  text-align: center;
+  margin-top:30px;
+  font-weight:normal;
+}
+
+
+.wrapper {
+  width:800px;
+  margin:0 auto;
+}
+
+.wrapper p {
+  text-align:center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  color:#999;
+  line-height:40px;
+}
+
+.wrapper a {
+  color:#36F;
+  text-decoration:none;
+}
+
+.wrapper a:hover {
+  color:#000;
+}
+
+.clock {
+  width:800px;
+  height:190px;
+  margin:0 auto;
+}
+
+.social {
+  width:100%;
+  height:60px;
+  background-color:#FFF;
+  border-top:1px solid #CCC;
+  border-bottom:1px solid #CCC;
+  margin-top:50px;
+}
+
+.text {
+  position: absolute;
+  width:100%;
+  top:65px;
+  left:0;
+}
+.text .val {
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color:#616161;
+  font-weight: bold;
+}
+
+.text .type_days,
+.text .type_hours,
+.text .type_minutes,
+.text .type_seconds
+{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color:#aeaeae;
+  font-weight: bold;
+  text-transform: uppercase;
+}

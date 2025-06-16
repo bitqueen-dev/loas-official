@@ -1,3 +1,129 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:41801f2b2779bbd377d3da44e31bef1802fbff5924842178c5b4e31cf448680c
-size 2650
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "メイリオ", "Hiragino Kaku Gothic Pro", Meiryo, "ヒラギノ角ゴ Pro W3", "MS PGothic", "MS UI Gothic", Helvetica, Arial, sans-serif;
+    background-color: #787dff;
+}
+
+img {
+    border: 0;
+}
+
+div {
+    display: block;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.shunsuketakeuchi_line1 {
+    background-image: url("/images/casting/shunsuketakeuchi_line1_bg.png");
+    width: 1200px;
+    height: 856px;
+    overflow: hidden;
+}
+
+.shunsuketakeuchi_line1_contents {
+    background-image: url("/images/casting/shunsuketakeuchi_line1_contents.png");
+    width: 859px;
+    height: 616px;
+    margin-top: 168px;
+    margin-left: 180px;
+}
+
+.shunsuketakeuchi_line2 {
+    background-image: url("/images/casting/shunsuketakeuchi_line2_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 1200px;
+    height: 271px;
+    padding-top: 10px;
+}
+
+.shunsuketakeuchi_line3 {
+    height: 130px;
+    width: 1200px;
+    line-height: 100px;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.shunsuketakeuchi_line4 {
+    background-image: url(/images/casting/shunsuketakeuchi_line4_bg.png);
+    width: 896px;
+    height: 455px;
+    color: #000;
+    font-size: 24px;
+    line-height: 55px;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: auto;
+}
+
+.first_word_shunsuketakeuchi {
+    font-size: 40px;
+    color: #2937a5;
+}
+
+.shunsuketakeuchi_line5 {
+    background-image: url("/images/casting/shunsuketakeuchi_line5_bg.png");
+    height: 170px;
+    width: 1200px;
+    margin-top: 40px;
+    padding-top: 455px;
+    margin-bottom: 15px;
+}
+
+.shunsuketakeuchi_line6 {
+    width: 940px;
+    margin: auto;
+}
+
+.shunsuketakeuchi_line6_head {
+    background-image: url("/images/casting/shunsuketakeuchi_line6_head_bg.png");
+    height: 25px;
+}
+
+.shunsuketakeuchi_line6_foot {
+    background-image: url("/images/casting/shunsuketakeuchi_line6_foot_bg.png");
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.shunsuketakeuchi_line6_body {
+    background-color: #dff1ff;
+}
+
+.q {
+    color: #0f9df8;
+    font-size: 19px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.a {
+    color: #2937a5;
+    font-size: 19px;
+    margin-left: 35px;
+}
+
+.shunsuketakeuchi_line7 {
+    background-image: url("/images/casting/shunsuketakeuchi_line7_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 459px;
+    width: 1200px;
+    padding-top: 45px;
+    overflow: hidden;
+}
+
+.share_contents {
+    text-align: center;
+    padding-top: 70px;
+}

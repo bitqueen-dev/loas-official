@@ -1,3 +1,287 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4d190c8b515db110afbbd2d3b65822a9cf9c6595146bdb7612e6043219ddb5c7
-size 5888
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "メイリオ","Hiragino Kaku Gothic Pro",Meiryo,"ヒラギノ角ゴ Pro W3","MS PGothic","MS UI Gothic",Helvetica,Arial,sans-serif;
+}
+
+html {
+    background: url("//ap-statics.loas.jp/mm2/official/images/ministop/bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hoverAnim:hover {
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.top {
+    background: url("//ap-statics.loas.jp/mm2/official/images/campaign_1801/top_bg.png") top center no-repeat;
+    min-width: 1200px;
+}
+
+.top_contents {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    height: 524px;
+}
+
+.logo {
+    top: 18px;
+    right: 52px;
+    width: 270px;
+    height: 115px;
+    cursor: pointer;
+    position: absolute;
+    /*background-color: rgba(255,0,0,.5);*/
+}
+
+.intro_area {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/campaign_1801/intro.png);
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 1200px;
+    height: 552px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.intro_btn {
+    /*background-color: rgba(255,0,0,.5);*/
+    position: absolute;
+    width: 370px;
+    height: 420px;
+    top: 130px;
+}
+
+.intro_cp_1 {
+    left: 20px;
+}
+
+.intro_cp_2 {
+    left: 415px;
+}
+
+.intro_cp_3 {
+    left: 810px;
+}
+
+#cp_area_1 {
+	margin-bottom: 50px;
+}
+
+.cp_1_header {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/campaign_1801/cp_1_header.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 1068px;
+    height: 858px;
+   	padding-bottom: 100px;
+    margin: auto;
+    position: relative;
+}
+
+.cp_1_header table {
+	position: absolute;
+	top: 200px;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cp_1_header table th {
+	text-align: center;
+	font-weight: 900 !important;
+	font-size: 30px !important;
+	height: 70px;
+}
+
+.cp_1_header table td {
+	height: 58px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.cp_1_header table .col1 {
+	/*background-color: rgba(0,255,0,.5);*/
+	width: 322px;
+	font-size: 23px;
+	font-weight: 600;
+}
+
+.cp_1_header table .col2 {
+	/*background-color: rgba(0,0,255,.5);*/
+	font-size: 20px;
+}
+
+.cp_1_header .campaign_period {
+	position: absolute;
+	right: 20px;
+	top: 870px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cp_area_1 .detail_btn {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/campaign_1801/toDetailBtn.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+	width: 552px;
+	height: 82px;
+	margin: auto;
+    cursor: pointer;
+}
+
+.cp_2_header {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/campaign_1801/cp_2_header.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 1200px;
+    height: 562px;
+    margin: auto;
+    position: relative;
+}
+
+#cp_area_2 {
+	margin-bottom: 100px;
+}
+
+#cp_area_2 .twitterBtn {
+    width: 408px;
+    height: 63px;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/followBtn.png");
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.cp_2_contents {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/campaign_1801/cp_2_contents_1.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 1042px;
+    height: 874px;
+    margin: auto;
+    padding-top: 210px;
+}
+
+.cp_2_contents .words {
+	margin-left: 120px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cp_2_contents .words_2 {
+	margin-top: 80px;
+}
+
+.cp_2_contents .words_3 {
+	margin-top: 60px;
+}
+
+.cp_2_contents .words_4 {
+	margin-top: 70px;
+}
+
+.cp_2_contents .words_5 {
+	margin-top: 60px;
+}
+
+.cp_2_contents .words_6 {
+	margin-top: 80px;
+}
+
+.words_style_1 {
+    font-size: 18px;
+    color: #c02867;
+    line-height: 30px;
+}
+
+#cp_area_3 {
+	margin-bottom: 100px;
+}
+
+.cp_3_header {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/campaign_1801/cp_3_header.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 1040px;
+    height: 1140px;
+    margin: auto;
+    position: relative;
+}
+
+.audioBtn {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/campaign_1712/audioBtnOff.png);
+    width: 26px;
+    height: 23px;
+    right: 280px;
+    top: 495px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.audioBtn:hover { 
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/audioBtnOn.png"); 
+}
+
+.gameStartBtn {
+    display: none;
+    width: 148px;
+    height: 149px;
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    background-image: url('//ap-statics.loas.jp/mm2/official/images/campaign_1712/gameStartBtnCircleOff.png');
+    cursor: pointer;
+}
+
+.gameStartBtn:hover {
+    background-image: url('//ap-statics.loas.jp/mm2/official/images/campaign_1712/gameStartBtnCircleOn.png');
+}
+
+#top_div {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 52px;
+    height: 52px;
+    -webkit-transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -o-transition: opacity .4s ease-in-out;
+    opacity: 1;
+    z-index: 100000;
+}
+
+#top_a {
+    display: block;
+    width: 52px;
+    height: 52px;
+    background: url(//ap-statics.loas.jp/mm2/official/images/wmcp_top.png) center center no-repeat;
+    background-color: #444;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

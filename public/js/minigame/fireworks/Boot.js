@@ -1,3 +1,34 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:36597934faa88faa3c6335c730e129dcbb24690f7d23f54e43152eaf1b2142f6
-size 631
+BasicGame = {};
+
+BasicGame.Boot = function(game) {};
+
+BasicGame.Boot.prototype = {
+
+  init: function() {
+
+    this.input.maxPointers = 1;
+    this.stage.disableVisibilityChange = true;
+    this.stage.backgroundColor = '#330066';
+
+    this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+    this.scale.fullScreenScaleMode = Phaser.ScaleManager.SHOW_ALL;
+
+    this.scale.parentIsWindow = true ;
+
+    this.scale.refresh();
+
+  },
+
+  preload: function() {
+
+    this.load.atlasJSONHash('loading', 'images/minigame/loading.png', 'images/minigame/loading.json');
+
+  },
+
+  create: function() {
+
+    this.state.start('Preloader');
+
+  }
+
+};

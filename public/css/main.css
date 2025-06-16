@@ -1,3 +1,3737 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1d53d0848bb538fa701653d2acbb682c112d93d483f171f495ae5e5aa1835825
-size 80939
+html, body {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: "メイリオ", "Hiragino Kaku Gothic Pro", Meiryo, "ヒラギノ角ゴ Pro W3", "MS PGothic", "MS UI Gothic", Helvetica, Arial, sans-serif;
+    background-color: #000;
+}
+
+img {
+    border: 0;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/top_bg.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+.contents {
+    width: 1000px;
+    margin: auto;
+    margin-top: 30%;
+}
+
+.contents_upper {
+    width: 1000px;
+    min-height: 380px;
+    position: relative;
+}
+
+.contents_middle {
+    margin-top: 20px;
+    width: 1000px;
+    height: 269px;
+    position: relative;
+}
+
+.contents_lower {
+    width: 1000px;
+    height: 880px;
+    position: relative;
+}
+
+.contents_left {
+    width: 240px;
+    float: left;
+}
+
+.contents_right {
+    width: 760px;
+    float: left;
+    padding-top: 20px;
+}
+
+.start_area {
+    width: 240px;
+    position: relative;
+}
+
+.start_button {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/gamestart_off.png");
+    width: 240px;
+    height: 243px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+}
+
+.start_button:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/gamestart_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.start_button_shadow {
+    width: 240px;
+    height: 243px;
+    z-index: 1;
+}
+
+.start_user_info {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/start_user.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 380px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+
+
+.btn_mclient_download {
+    background-image: url("/images/left_btn_mclient_download.png");
+    width: 240px;
+    height: 73px;
+    cursor: pointer;
+    margin-top: 23px;
+}
+
+.btn_mclient_download:hover {
+    background-image: url("/images/left_btn_mclient_download_hover.png");
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+
+.btn_coin {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/bbtn_coin_off.png");
+    width: 240px;
+    height: 73px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.btn_coin:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/bbtn_coin_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.btn_diamond_charge {
+    background-image: url("/images/left_btn_diamond_charge.png");
+    width: 240px;
+    height: 73px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.btn_diamond_charge:hover {
+    background-image: url("/images/left_btn_diamond_charge_hover.png");
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+
+.btn_point {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/bbtn_point_off.png");
+    width: 240px;
+    height: 73px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.btn_point:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/bbtn_point_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.btn_charge {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/bbtn_charge_off.png");
+    width: 240px;
+    height: 73px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.btn_charge:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/bbtn_charge_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.btn_bkm {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/bbtn_bkm_off.png");
+    width: 240px;
+    height: 73px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.btn_bkm:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/bbtn_bkm_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.btn_beginner {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/bbtn_beginner_off.png");
+    width: 240px;
+    height: 137px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.btn_beginner:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/bbtn_beginner_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.btn_minigame {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/bbtn_minigame_off.png);
+    width: 240px;
+    height: 137px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.btn_minigame:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/bbtn_minigame_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.twitter_area {
+    width: 240px;
+    height: 310px;
+    padding-top: 15px;
+}
+
+.contents_right_left {
+    width: 530px;
+    float: left;
+    margin-left: 10px;
+}
+
+.contents_right_right {
+    width: 210px;
+    float: left;
+    margin-left: 10px;
+}
+
+.notice {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/notice_bg.png");
+    width: 530px;
+    height: 582px;
+    position: relative;
+}
+
+.world {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/bbtn_loa_off.png");
+    width: 210px;
+    height: 146px;
+    cursor: pointer;
+}
+
+.world:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/bbtn_loa_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.audition_link {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/audition_link_off.png");
+    width: 210px;
+    height: 147px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.audition_link:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/audition_link_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.campaign_link {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1812/1812_luster_cp.png");
+    width: 210px;
+    height: 146px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/*
+.campaign_link:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/campaign_1801/campaign_1801_on.jpg);
+}
+*/
+
+.webmoneycp_ministop {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/webmoneycp_ministop_off.png");
+    width: 210px;
+    height: 147px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.webmoneycp_ministop:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/webmoneycp_ministop_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.function_game {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/function_game_off.png");
+    width: 210px;
+    height: 73px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.function_game:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/function_game_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.character {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/character_bg_2.png");
+    width: 1000px;
+    height: 269px;
+    position: relative;
+}
+
+.sns_area {
+    width: 210px;
+    margin-top: 10px;
+}
+
+.character_vote {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/btn_rank_off.png");
+    width: 210px;
+    height: 120px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.character_vote:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/btn_rank_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.netcafe {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/btn_netcafe_off.png");
+    width: 210px;
+    height: 60px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.netcafe:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/btn_netcafe_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.qa {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/btn_qa_off.png");
+    width: 210px;
+    height: 60px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.qa:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/btn_qa_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.faq {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/btn_faq_off.png");
+    width: 210px;
+    height: 60px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.faq:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/btn_faq_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.karma_link {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/karma_link.jpg");
+    width: 210px;
+    height: 60px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    width: 1000px;
+    height: 50px;
+    background-color: #171717;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-top: 30px;
+}
+
+.footer_single {
+    width: 1000px;
+    height: 50px;
+    background-color: #171717;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.top_slider {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/slide_bg.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    width: 760px;
+    height: 360px;
+    padding-top: 20px;
+}
+
+.big_pic {
+    width: 715px;
+    height: 260px;
+    margin-left: 25px;
+    background-color: #b2b2b2;
+}
+
+.thumb_pic {
+    width: 715px;
+    height: 54px;
+    margin-left: 25px;
+}
+
+.slide_btn_left {
+    display: block;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/slide_left_btn_bg.png");
+    width: 38px;
+    height: 43px;
+    float: left;
+    margin-top: 20px;
+}
+
+.slide_btn_right {
+    display: block;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/slide_right_btn_bg.png");
+    width: 38px;
+    height: 43px;
+    float: right;
+    margin-top: 20px;
+}
+
+.thumb_pic_list {
+    width: 620px;
+    height: 54px;
+    overflow: hidden;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.thumb_pic_mask {
+    height: 54px;
+}
+
+.thumb_pic_item {
+    width: 151px;
+    height: 54px;
+    margin-right: 5px;
+    cursor: pointer;
+    float: left;
+}
+
+.notice_tabs_list {
+    width: 500px;
+    height: 30px;
+    margin: auto;
+    padding-top: 70px;
+    margin-bottom: 17px;
+}
+
+.notice_tabs_items {
+    float: left;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/notice_tab_bg_off.png");
+    width: 99px;
+    height: 30px;
+    margin-right: 1px;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.notice_tabs_items:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/notice_tab_bg_on.png");
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.notice_tabs_items.on {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/notice_tab_bg_on.png");
+}
+
+.notice_item {
+    width: 500px;
+    margin: auto;
+    height: 26px;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/notice_item_underline.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+
+.notice_item_type {
+    width: 68px;
+    height: 18px;
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing:-1px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.notice_item_type.item_type_notice {
+    background-color: #007fe7;
+}
+
+.notice_item_type.item_type_event {
+    background-color: #df7a0d;
+}
+
+.notice_item_type.item_type_maintenance {
+    background-color: #60a60e;
+}
+
+.notice_item_type.item_type_update {
+    background-color: #a60e1c;
+}
+
+.notice_items_title {
+    overflow: hidden;
+    font-size: 12px;
+    color: #fff;
+    float: left;
+    width: 300px;
+    padding-top: 5px;
+    margin-left: 10px;
+    white-space:nowrap;
+}
+
+.notice_items_date {
+    float: left;
+    font-size: 12px;
+    float: left;
+    color: #8bbddb;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.more {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/more_off.png");
+    height: 17px;
+    width: 81px;
+    position: absolute;
+    top: 28px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.more:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/more_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.character_items_list {
+    width: 970px;
+    height: 196px;
+    margin: auto;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.character_item {
+    height: 196px;
+    width: 128px;
+    float: left;
+    margin-right: 2px;
+    margin-left: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.character_item_1 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/characterIndexMid_13.png");
+}
+
+.character_item_2 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/characterIndexMid_14.png");
+}
+
+.character_item_3 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/characterIndexMid_12.png");
+}
+
+.character_item_4 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/characterIndexMid_10.png");
+}
+
+.character_item_5 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/characterIndexMid_11.png");
+}
+
+.character_item_6 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/characterIndexMid_8.png");
+}
+
+.character_item_7 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/characterIndexMid_4.png");
+}
+
+.character_feature_label {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/character_feature_label.png");
+    width: 67px;
+    height: 67px;
+    position: absolute;
+    right: 5px;
+    bottom: 7px;
+}
+
+.more_character {
+    top: 25px !important;
+}
+
+.videos {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/video_bg.png");
+    width: 505px;
+    height: 103px;
+    margin-top: 15px;
+    position: relative;
+    padding-top: 65px;
+    padding-left: 15px;
+}
+
+.video_item {
+    float: left;
+    width: 150px;
+    height: 83px;
+    margin-right: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.video_item_img {
+    width: 145px;
+    height: 75px;
+    position: absolute;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 145px 75px;
+    top: 3px;
+    left: 3px;
+}
+
+.index_movie_frame {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/movie_frame.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width:150px;
+    height:83px;
+    background-size: 150px 83px;
+    position: absolute;
+}
+
+.video_new_label {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/movie_new_label.png");
+    width: 67px;
+    height: 48px;
+    position: absolute;
+    right: 4px;
+    top: 3px;
+}
+
+.index_movie_btn {
+    width: 150px;
+    height: 83px;
+    position: absolute;
+    top: 0px;
+}
+
+.more_video {
+    top: 26px !important;
+}
+
+.start_title {
+    top: 245px;
+    left: 65px;
+    position: absolute;
+}
+
+.user_function {
+    width: 160px;
+    height: 95px;
+    position: absolute;
+    bottom: 15px;
+    left: 17px;
+}
+
+.user_function_bank {
+    width: 160px;
+    height: 78px;
+}
+
+.user_function_logout {
+    width: 160px;
+    height: 15px;
+    font-size: 12px;
+    text-align: right;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.user_function_coin {
+    height: 39px;
+    width: 160px;
+    margin-left: 3px;
+}
+
+.user_function_point {
+    height: 39px;
+    width: 160px;
+    margin-left: 3px;
+}
+
+.coin_title {
+    height: 39px;
+    width: 45px;
+    font-size: 12px;
+    float: left;
+    line-height: 30px;
+    letter-spacing: -1px;
+}
+
+.coin_number {
+    height: 39px;
+    width: 68px;
+    font-size: 12px;
+    float: left;
+    line-height: 30px;
+    letter-spacing: -1px;
+}
+
+.coin_button {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_buy.png");
+    width: 46px;
+    height: 29px;
+    float: left;
+    cursor: pointer;
+}
+
+.point_title {
+    height: 39px;
+    width: 45px;
+    font-size: 12px;
+    float: left;
+    line-height: 30px;
+    letter-spacing: -1px;
+}
+
+.point_number {
+    height: 39px;
+    width: 68px;
+    font-size: 12px;
+    float: left;
+    line-height: 30px;
+    letter-spacing: -1px;
+}
+
+.point_button {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_use.png");
+    width: 46px;
+    height: 29px;
+    float: left;
+    cursor: pointer;
+}
+
+.sub_page_right {
+    width: 745px;
+    padding-left: 10px;
+}
+
+.sub_page_right_top {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/sub_page_right_top_bg.png");
+    height: 25px;
+    width: 723px;
+    color: #fff;
+    padding-top: 25px;
+    padding-left: 22px;
+}
+
+.sub_page_right_contents {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/sub_page_right_contents_bg.png");
+    width: 745px;
+    min-height: 810px;
+    float: left;
+}
+
+.sub_page_movie_right_contents {
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.sub_page_right_bottom {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/sub_page_right_bottom_bg.png");
+    height: 23px;
+    width: 745px;
+    float: left;
+}
+
+.sub_page_nav a {
+    color: #52ceff !important;
+}
+
+.sub_page_coin_title {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_subpage1_title.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 745px;
+    height: 37px;
+    padding-top: 12px;
+}
+
+.coin_page_tabs {
+    width: 720px;
+    height: 43px;
+    margin: 10px 0 0 17px;
+}
+
+.coin_tab_item {
+    width: 235px;
+    height: 43px;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_tab_item_bg_off.png");
+    float: left;
+    margin-right: 3px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 43px;
+}
+
+.coin_tab_item:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/coin_tab_item_bg_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.coin_tab_item.on {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/coin_tab_item_bg_on.png);
+    color: #00008b;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.coin_subpage1_line1 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_subpage1_line1_bg.png");
+    width: 550px;
+    height: 207px;
+    margin-left: 35px;
+    margin-top: 35px;
+    padding-top: 65px;
+    padding-left: 115px;
+}
+
+.coin_subpage1_line1_words1 {
+    font-size: 12px;
+    color: #ffffff;
+    width: 500px;
+    height: 40px;
+    line-height: 20px;
+}
+
+.coin_subpage1_line1_words2 {
+    font-size: 12px;
+    color: #ffffff;
+    width: 500px;
+    height: 40px;
+    line-height: 20px;
+    margin-top: 34px;
+}
+
+.coin_subpage1_line1_words3 {
+    font-size: 12px;
+    color: #ffffff;
+    width: 500px;
+    height: 40px;
+    line-height: 20px;
+    margin-top: 34px;
+}
+
+.coin_subpage1_buy_button {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_subpage_buy_off.png");
+    width: 225px;
+    height: 53px;
+    margin-top: 25px;
+    margin-left: 260px;
+    cursor: pointer;
+}
+
+.coin_subpage1_buy_button:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/coin_subpage_buy_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.coin_subpage1_line2 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_subpage1_line2_bg.png");
+    width: 665px;
+    height: 289px;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.coin_subpage1_line3 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_subpage1_line3_bg.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 674px;
+    margin-left: 35px;
+    margin-top: 35px;
+    padding-top: 35px;
+}
+
+.coin_subpage1_line4 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_subpage1_line4_bg.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 674px;
+    margin-left: 35px;
+    padding-top: 35px;
+}
+
+.coin_subpage1_line5 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_subpage1_line5_bg.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 674px;
+    margin-left: 35px;
+    padding-top: 35px;
+}
+
+.coin_subpage1_step {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_subpage1_contents_bg.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 145px;
+    width: 674px;
+    padding-top: 15px;
+}
+
+.coin_subpage1_step.last {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_subpage1_contents_last_bg.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 145px;
+    width: 674px;
+    padding-top: 15px;
+}
+
+.step_title {
+    color: #069eff;
+    display: block;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.step_words {
+    color: #646363;
+    display: block;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 12px;
+    line-height: 18px;
+    width: 600px;
+}
+
+.coin_subpage1_note {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 55px;
+    padding-bottom: 50px;
+}
+
+.coin_buy_nav {
+    width: 675px;
+    height: 65px;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.coin_buy_nav.step1 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_buy_s1_nav.png");
+}
+
+.coin_buy_nav.step2 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_buy_s2_nav.png");
+}
+
+.coin_buy_nav.step3 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_buy_s3_nav.png");
+}
+
+.coin_buy_nav.step5 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_buy_s5_nav.png");
+}
+
+.coin_buy_step_contents {
+    width: 745px;
+}
+
+.coin_buy_step_contents_title {
+    color: #ffffff;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.coin_item_select {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_item_select_bg.png");
+    width: 593px;
+    height: 276px;
+    margin: auto;
+}
+
+.coin_item_select_100 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_item_select_bg_100.png");
+    width: 593px;
+    height: 311px;
+    margin: auto;
+}
+
+.coin_item_table_head, .coin_item_table_body {
+    width: 587px;
+    margin: auto;
+}
+
+.coin_item_table_head_item {
+    height: 50px;
+    color: #ffffff;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+
+.coin_item_table_body_item {
+    height: 38px;
+    float: left;
+    line-height: 35px;
+    font-size: 12px;
+}
+
+.coin_item_table_head_item.item1 {
+    width: 198px;
+}
+
+.coin_item_table_head_item.item2 {
+    width: 205px;
+}
+
+.coin_item_table_head_item.item3 {
+    width: 183px;
+}
+
+.coin_item_table_body_item.item1{
+    padding-left: 25px;
+    width: 173px;
+}
+
+.coin_item_table_body_item.item2 {
+    width: 165px;
+    margin-left: 40px;
+}
+
+.coin_item_table_body_item.item3 {
+    width: 118px;
+    margin-left: 65px;
+}
+
+.blue_word_right {
+    height: 25px;
+    width: 670px;
+    color: #24b3ff !important;
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.coin_buy_step_button {
+    width: 430px;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.coin_buy_step_button.one_button {
+    width: 200px;
+}
+
+.coin_buy_step_back {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_buy_step_back_off.png");
+    width: 200px;
+    height: 47px;
+    float: left;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.coin_buy_step_back:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/coin_buy_step_back_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.coin_buy_step_next {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_buy_step_next_off.png");
+    width: 200px;
+    height: 47px;
+    float: left;
+    cursor: pointer;
+}
+
+.coin_buy_step_next:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/coin_buy_step_next_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.coin_buy_step2_contents {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_subpage2_contents_bg.png");
+    width: 674px;
+    height: 218px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.coin_pay_way_list {
+    width: 600px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.coin_pay_way_item {
+    width: 100px;
+    height: 150px;
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+}
+
+.coin_buy_s3_table1 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_buy_s3_table1_bg.png");
+    width: 593px;
+    height: 155px;
+    margin: auto;
+}
+
+.coin_buy_s3_table1_line {
+    height: 40px;
+    width: 593px;
+}
+
+.coin_buy_s3_table1_c1 {
+    width: 150px;
+    height: 40px;
+    float: left;
+    line-height: 35px;
+    padding-left: 50px;
+    font-size: 12px;
+}
+
+.coin_buy_s3_table1_c2 {
+    width: 377px;
+    height: 40px;
+    float: left;
+    line-height: 35px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.coin_buy_s3_table2 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_buy_s3_table2_bg.png");
+    width: 593px;
+    height: 43px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.coin_buy_s3_table2_c1 {
+    width: 150px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    padding-left: 50px;
+    font-size: 12px;
+}
+
+.coin_buy_s3_table2_c2 {
+    width: 377px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.coin_buy_s3_table2_c2 label {
+    float: right;
+    margin-right: 15px;
+}
+
+.buy_complete {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 800;
+    display: block;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.buy_complete_words {
+    width: 575px;
+    height: 80px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 25px;
+    padding-left: 130px;
+    margin-top: 50px;
+}
+
+.coin_buy_step_complete {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_done_off.png");
+    width: 350px;
+    height: 82px;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.coin_buy_step_complete:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/coin_done_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.coin_history_title {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_subpage1_title3.png");
+    width: 666px;
+    height: 41px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.coin_history_function {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/coin_history_function_bg.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    width: 645px;
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 12px;
+    margin: auto;
+    padding-left: 25px;
+}
+
+.coin_history_function select {
+    float: right;
+    margin-top: 15px;
+}
+
+.coin_history_list {
+    width: 710px;
+    margin: auto;
+}
+
+.coin_history_list_header {
+    width: 710px;
+    height: 29px;
+}
+
+.coin_history_list_body {
+    width: 710px;
+    height: 29px;
+}
+
+.coin_history_list_header_item {
+    background-color: #9873b1;
+    height: 29px;
+    font-size: 13px;
+    color: #ffffff;
+    float: left;
+    text-align: center;
+    line-height: 29px;
+}
+
+.coin_history_list_body_item_1 {
+    background-color: #ffffff;
+    height: 29px;
+    font-size: 12px;
+    float: left;
+    text-align: center;
+    line-height: 29px;
+    overflow: hidden;
+}
+
+.coin_history_list_body_item_2 {
+    background-color: #eadff2;
+    height: 29px;
+    font-size: 12px;
+    float: left;
+    text-align: center;
+    line-height: 29px;
+    overflow: hidden;
+}
+
+.coin_history_list_header_item.item1 {
+    border-right: 2px solid #c7b6d0;
+    width: 150px;
+}
+
+.coin_history_list_body_item_1.item1 {
+    border-right: 2px solid #c7b6d0;
+    width: 150px;
+}
+
+.coin_history_list_body_item_2.item1 {
+    border-right: 2px solid #c7b6d0;
+    width: 150px;
+}
+
+.coin_history_list_header_item.item2 {
+    border-right: 2px solid #c7b6d0;
+    width: 158px;
+}
+
+.coin_history_list_body_item_1.item2 {
+    border-right: 2px solid #c7b6d0;
+    width: 158px;
+}
+
+.coin_history_list_body_item_2.item2 {
+    border-right: 2px solid #c7b6d0;
+    width: 158px;
+}
+
+.coin_history_list_header_item.item3 {
+    border-right: 2px solid #c7b6d0;
+    width: 118px;
+}
+
+.coin_history_list_body_item_1.item3 {
+    border-right: 2px solid #c7b6d0;
+    width: 118px;
+}
+
+.coin_history_list_body_item_2.item3 {
+    border-right: 2px solid #c7b6d0;
+    width: 118px;
+}
+
+.coin_history_list_header_item.item4 {
+    border-right: 2px solid #c7b6d0;
+    width: 90px;
+}
+
+.coin_history_list_body_item_1.item4 {
+    border-right: 2px solid #c7b6d0;
+    width: 90px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.coin_history_list_body_item_2.item4 {
+    border-right: 2px solid #c7b6d0;
+    width: 90px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.coin_history_list_header_item.item5 {
+    border-right: 2px solid #c7b6d0;
+    width: 90px;
+}
+
+.coin_history_list_body_item_1.item5 {
+    border-right: 2px solid #c7b6d0;
+    width: 90px;
+}
+
+.coin_history_list_body_item_2.item5 {
+    border-right: 2px solid #c7b6d0;
+    width: 90px;
+}
+
+.coin_history_list_header_item.item6 {
+    width: 90px;
+}
+
+.coin_history_list_body_item_1.item6 {
+    width: 90px;
+}
+
+.coin_history_list_body_item_2.item6 {
+    width: 90px;
+}
+
+.coin_history_list_header_item.item_point {
+    width: 180px;
+}
+
+.coin_history_list_body_item_1.item_point {
+    width: 180px;
+}
+
+.coin_history_list_body_item_2.item_point {
+    width: 180px;
+}
+
+.sub_menu_common {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/sub_menu_common_bg_off.png");
+    width: 239px;
+    height: 54px;
+    color: #fff;
+    text-align: center;
+    line-height: 54px;
+    font-size: 17px;
+    letter-spacing: 3px;
+    margin-bottom: 11px;
+    cursor: pointer;
+    display: block;
+}
+
+.sub_menu_common:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/sub_menu_common_bg_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.sub_menu_common.on {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/sub_menu_common_bg_on.png");
+}
+
+.sub_menu_common:hover {
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.sub_menu_common.last {
+    margin-bottom: 0 !important;
+}
+.sub_menu_common.sub_next {
+    margin-top: 11px !important;
+}
+
+.sub_menu_left_top {
+    height: 20px;
+    width: auto;
+}
+
+.sub_sub_menu {
+    width: 202px;
+    margin: auto;
+}
+
+.sub_sub_menu_body {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/sub_sub_menu_body_bg.png");
+    height: auto;
+    width: 202px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+.sub_sub_menu_footer {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/sub_sub_menu_footer_bg.png");
+    width: 202px;
+    height: 13px;
+}
+
+.sub_sub_sub_menu {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/sub_sub_sub_menu_bg_off.png");
+    width: 148px;
+    height: 29px;
+    margin: auto;
+    margin-bottom: 4px;
+    color: #fff;
+    text-align: center;
+    line-height: 29px;
+    cursor: pointer;
+    font-size: 13px;
+    display: block;
+}
+
+.sub_sub_sub_menu:hover {
+    color: #fff;
+    text-decoration: none !important;
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/sub_sub_sub_menu_bg_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.sub_sub_sub_menu.on {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/sub_sub_sub_menu_bg_on.png);
+}
+
+.sub_page_support_2_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/support2_title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 706px;
+    height: 38px;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.sub_page_support_x_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/supportx_title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 706px;
+    height: 37px;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.sub_page_support_2_word {
+    width: 720px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin: 20px auto 0 auto;
+}
+
+.sub_page_support_2_contents {
+    width: 660px;
+    background-color: #969696;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.support2_table_line {
+    width: 654px;
+    height: auto;
+    margin: auto;
+    border-bottom: 2px solid #bdbdbd;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/support2_table_line_bg.png");
+}
+
+.support2_table_line.last {
+    border-bottom: 0 !important;
+}
+
+.support2_table_line_left {
+    width: 154px;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 800;
+
+}
+
+.support2_table_line_right {
+    width: 470px;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.sub_page_support_3_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/support3_title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 706px;
+    height: 38px;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.sub_page_support_3_word {
+    width: 680px;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    margin: 20px auto 30px auto;
+    line-height: 20px;
+}
+
+.support3_sub_title {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/support3_sub_title.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    width: 660px;
+    height: 35px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.support3_sub_words {
+    width: 660px;
+    height: auto;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.sub_page_support_1_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/support1_title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 706px;
+    height: 37px;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.sub_title_1 {
+    font-size: 14px;
+    width: 680px;
+    margin: auto;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+}
+
+.support_1_important {
+    color: #ff6600;
+}
+
+#userService table {
+    width: 710px;
+    margin: auto;
+    display: block;
+    color: #fff;
+    font-size: 12px;
+}
+
+#userService tr {
+    height: 45px;
+}
+
+.orange {
+    color: #fef4e9;
+    border: solid 1px #da7c0c;
+    background: #f78d1d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+    background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.orange:hover {
+    background: #f47c20;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+    background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.orange:active {
+    color: #fcd3a5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+    background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+.button {
+    display: inline-block;
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+    *display: inline;
+    vertical-align: baseline;
+    margin-top: 25px;
+    margin-left:310px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+.support_1_error {
+    padding-left: 10px;
+    color: #ff6600;
+    display: none;
+}
+
+.sub_page_support_4_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/support4_title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 706px;
+    height: 38px;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.sub_page_support_5_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/support5_title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 706px;
+    height: 37px;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.support5_sub_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/support3_sub_title.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    width: 660px;
+    height: 40px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    margin: auto;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.support5_contents {
+    width: 660px;
+    margin: auto;
+    height: 700px;
+}
+
+.sub_page_gallery_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/sub_page_gallery_title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 706px;
+    height: 37px;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.sub_page_moviePageNav_upperBtns {
+    width: 250px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    margin-right: 30px;
+}
+
+.sub_page_moviePageNav_lowerBtns {
+    width: 250px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    margin-right: 30px;
+}
+
+.sub_page_moviePageNum {
+    width: 30px;
+    padding-top: 6px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.sub_page_moviePageNav {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/pagenav_bg.png);
+    width: 100px;
+    height: 32px;
+    float: left;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    cursor: pointer;
+}
+
+.sub_page_movie_contents {
+    width: 630px;
+    height: auto;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.sub_page_movie_item {
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
+}
+
+.sub_page_movie_img {
+    width: 290px;
+    height: 180px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 290px 180px;
+    top: 5px;
+    left: 5px;
+}
+
+.sub_page_movie_text {
+    width: 300px;
+    height: 50px;
+    padding-top: 200px;
+}
+
+.sub_page_movie_frame {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/movie_frame.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width:300px;
+    height:200px;
+    position: absolute;
+}
+
+.sub_page_movie_btn {
+    width:300px;
+    height:250px;
+    position: absolute;
+    top: 0px;
+}
+
+.sub_page_playguild_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/sub_page_playguild_beginner_title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 706px;
+    height: 38px;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.playguild_contents {
+    width: 660px;
+    margin: auto;
+    height: 700px;
+    margin-top: 30px;
+}
+
+.sub_page_right_top_introgame {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_game_top_bg.png);
+    height: 25px;
+    width: 723px;
+    color: #fff;
+    padding-top: 25px;
+    padding-left: 22px;
+}
+
+.intro_game_line {
+    width: 745px;
+    height: 200px;
+}
+
+.intro_game_line.line1 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/intro_game_line1.png");
+}
+
+.intro_game_line.line2 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/intro_game_line2.png");
+}
+
+.intro_game_line.line3 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/intro_game_line3.png");
+}
+
+.intro_game_line.line4 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/intro_game_line4.png");
+}
+
+.intro_game_line.line5 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/intro_game_line5.png");
+}
+
+.intro_game_line.line6 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/intro_game_line6.png");
+}
+
+.intro_game_line.line7 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/intro_game_line7.png");
+}
+
+.intro_game_line.line8 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/intro_game_line8.png");
+}
+
+.intro_game_line.line9 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/intro_game_line9.png");
+}
+
+.intro_game_line.line10 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/intro_game_line10.png");
+}
+
+.intro_game_line.line11 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/intro_game_line11.png");
+}
+
+.intro_game_line_line12 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/intro_game_line12.png");
+    width: 745px;
+    height: 60px;
+}
+
+.sub_page_right_contents_introgame {
+    width: 745px;
+}
+
+.sub_page_intro_outlook_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/sub_page_intro_outlook_title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 706px;
+    height: 40px;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.intro_outlook_country_contents {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/intro_outlook_country_contents.png");
+    width: 680px;
+    height: 531px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.sub_page_intro_race_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/sub_page_intro_race_title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 706px;
+    height: 37px;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.intro_race_country_contents {
+    width: 726px;
+    height: auto;
+    margin: auto;
+}
+
+.intro_race_line {
+    width: 726px;
+    height: 200px;
+}
+
+.intro_race_line.line1 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line1.png);
+}
+
+.intro_race_line.line2 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line2.png);
+}
+
+.intro_race_line.line3 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line3.png);
+}
+
+.intro_race_line.line4 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line4.png);
+}
+
+.intro_race_line.line5 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line5.png);
+}
+
+.intro_race_line.line6 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line6.png);
+}
+
+.intro_race_line.line7 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line7.png);
+}
+
+.intro_race_line.line8 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line8.png);
+}
+
+.intro_race_line.line9 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line9.png);
+}
+
+.intro_race_line.line10 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line10.png);
+}
+
+.intro_race_line.line11 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line11.png);
+}
+
+.intro_race_line.line12 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line12.png);
+}
+
+.intro_race_line.line13 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line13.png);
+}
+
+.intro_race_line.line14 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line14.png);
+}
+
+.intro_race_line.line15 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line15.png);
+}
+
+.intro_race_line.line16 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line16.png);
+}
+
+.intro_race_line.line17 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line17.png);
+}
+
+.intro_race_line.line18 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line18.png);
+}
+
+.intro_race_line.line19 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line19.png);
+}
+
+.intro_race_line.line20 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line20.png);
+}
+
+.intro_race_line.line21 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line21.png);
+}
+
+.intro_race_line.line22 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line22.png);
+}
+
+.intro_race_line.line23 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line23.png);
+}
+
+.intro_race_line.line24 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line24.png);
+}
+
+.intro_race_line.line25 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line25.png);
+}
+
+.intro_race_line.line26 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line26.png);
+}
+
+.intro_race_line.line27 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line27.png);
+}
+
+.intro_race_line.line28 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line28.png);
+}
+
+.intro_race_line.line29 {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/intro_race_line29.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.contents_intro {
+    width: 1256px;
+    margin: auto;
+    margin-top: 25%;
+    border: 2px solid #c7b6d0;
+    background-color: #000;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding-top: 20px;
+}
+
+.title {
+    width: 1260px;
+    height: 144px;
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/title_bg_3.png);
+    position: relative;
+}
+
+.title_name {
+    height: 75px;
+    position: absolute;
+    left: 544px;
+    top: 43px;
+}
+
+.footer_intro {
+    width: 1260px;
+    height: 50px;
+    background-color: #171717;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.contents_submenu_horizontal_story {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/story_submenu_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 960px;
+    height: 65px;
+    position: relative;
+    margin: auto;
+}
+
+.story_chapter {
+    float: left;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/story_chp_off.png");
+    width: 86px;
+    height: 41px;
+    margin-top: 13px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.story_chapter.on {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/story_chp_on.png");
+}
+
+.story_chapter:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/story_chp_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.story_chapter_1 {
+    background-position: 0 0;
+}
+
+.story_chapter_2 {
+    background-position: 602px 0;
+}
+
+.story_chapter_3 {
+    background-position: 516px 0;
+}
+
+.story_chapter_4 {
+    background-position: 430px 0;
+}
+
+.story_chapter_5 {
+    background-position: 344px 0;
+}
+
+.story_chapter_6 {
+    background-position: 258px 0;
+}
+
+.story_chapter_7 {
+    background-position: 172px 0;
+}
+
+.story_chapter_8 {
+    background-position: 86px 0;
+}
+
+.story_chapter_9 {
+    background-position: 0 82px;
+}
+
+.story_chapter_10 {
+    background-position: 602px 82px;
+}
+
+.story_chapter_11 {
+    background-position: 516px 82px;
+}
+
+.story_chapter_12 {
+    background-position: 430px 82px;
+}
+
+.story_chapter_13 {
+    background-position: 344px 82px;
+}
+
+.story_chapter_14 {
+    background-position: 258px 82px;
+}
+
+.story_chapter_15 {
+    background-position: 172px 82px;
+}
+
+.story_chapter_16 {
+    background-position: 86px 82px;
+}
+
+.story_chapter_17 {
+    background-position: 0 41px;
+}
+
+.story_chapter_18 {
+    background-position: 602px 41px;
+}
+
+.story_chapter_19 {
+    background-position: 516px 41px;
+}
+
+.story_chapter_20 {
+    background-position: 430px 41px;
+}
+
+.story_chapter_21 {
+    background-position: 344px 41px;
+}
+
+.story_chapter_22 {
+    background-position: 258px 41px;
+}
+
+.story_chapter_23 {
+    background-position: 172px 41px;
+}
+
+.story_chapter_24 {
+    background-position: 86px 41px;
+}
+
+.story_chapter_dot {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/story_chapter_dot.png");
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 22px;
+}
+
+.story_chapter_dot_1 {
+    left: 80px;
+}
+
+.story_chapter_dot_2 {
+    left: 176px;
+}
+
+.story_chapter_dot_3 {
+    left: 272px;
+}
+
+.story_chapter_dot_4 {
+    left: 368px;
+}
+
+.story_chapter_dot_5 {
+    left: 464px;
+}
+
+.story_chapter_dot_6 {
+    left: 560px;
+}
+
+.story_chapter_dot_7 {
+    left: 656px;
+}
+
+.story_chapter_dot_8 {
+    left: 752px;
+}
+
+.story_chapter_dot_9 {
+    left: 848px;
+}
+
+.story_chapter_contents {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/story_contents_bg.png");
+    height: 937px;
+    width: 1055px;
+    margin: 5px auto 0 auto;
+}
+
+.story_chapter_title {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/story_chapter_title_1.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 92px;
+    width: 353px;
+    margin: 10px auto 0 auto;
+}
+
+.story_chapter_words {
+    width: 900px;
+    height: 750px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.contents_submenu_horizontal {
+    height: 72px;
+    padding-left: 190px;
+}
+
+.sub_menu_item_horizontal {
+    float: left;
+    margin-right: 88px;
+}
+
+.sub_menu_character_1 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/submenu_character_1_off.png");
+    width: 151px;
+    height: 72px;
+    cursor: pointer;
+}
+
+.sub_menu_character_1:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/submenu_character_1_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.sub_menu_character_1.on {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/submenu_character_1_on.png");
+}
+
+.sub_menu_character_2 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/submenu_character_2_off.png");
+    width: 168px;
+    height: 72px;
+    cursor: pointer;
+}
+.sub_menu_character_2:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/submenu_character_2_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.sub_menu_character_2.on {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/submenu_character_2_on.png");
+}
+
+.sub_menu_character_3 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/submenu_character_3_off.png");
+    width: 156px;
+    height: 72px;
+    cursor: pointer;
+}
+
+.sub_menu_character_3:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/submenu_character_3_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.sub_menu_character_3.on {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/submenu_character_3_on.png");
+}
+
+.sub_menu_character_4 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/submenu_character_4_off.png");
+    width: 134px;
+    height: 72px;
+    cursor: pointer;
+}
+
+.sub_menu_character_4:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/submenu_character_4_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.sub_menu_character_4.on {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/submenu_character_4_on.png");
+}
+
+.character_info {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/character_info_bg.png");
+    height: 700px;
+    width: 1004px;
+    margin: 170px 0 0 160px;
+    position: relative;
+}
+
+.character_img {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/characterImg_1_1.png");
+    background-repeat: no-repeat;
+    width: 889px;
+    height: 640px;
+    position: absolute;
+    z-index: 1;
+    left: -160px;
+    top: -97px;
+}
+
+.character_name {
+    position: absolute;
+    z-index: 10;
+    left: 270px;
+    top: 5px;
+}
+
+.character_cv {
+    position: absolute;
+    z-index: 10;
+    left: 560px;
+    top: 30px;
+}
+
+.character_cv_listen_icon {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/character_listen_off.png");
+    width: 36px;
+    height: 31px;
+    float: left;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.character_cv_listen_btn {
+    font-size: 15px;
+    font-weight: 600;
+    color: #b3aeae;
+    margin-right: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    float: left;
+}
+
+.character_cv_listen_btn:hover {
+    color: #f9ec7a;
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.character_desc {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/characterDesc_1_1.png");
+    background-repeat: no-repeat;
+    width: 763px;
+    height: 385px;
+    position: absolute;
+    z-index: 10;
+    top: 106px;
+    left: 254px;
+}
+
+.character_desc_next_page {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/characterDesc_down_off.png");
+    width: 35px;
+    height: 33px;
+    position: absolute;
+    z-index: 10;
+    top: 460px;
+    left: 920px;
+    cursor: pointer;
+    display: none;
+}
+
+.character_desc_next_page:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/characterDesc_down_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.character_desc_pre_page {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/characterDesc_up_off.png");
+    width: 35px;
+    height: 33px;
+    position: absolute;
+    z-index: 10;
+    top: 460px;
+    left: 920px;
+    cursor: pointer;
+    display: none;
+}
+
+.character_desc_pre_page:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/characterDesc_up_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.character_list {
+    width: 970px;
+    height: 125px;
+    position: absolute;
+    z-index: 10;
+    bottom: 24px;
+}
+
+.character_list_contents {
+    width: 820px;
+    height: 125px;
+    overflow: hidden;
+    float: left;
+}
+
+.sliderbox {
+    margin: 0;
+}
+
+.sliderbox li {
+    height: 125px;
+    width: 970px;
+    overflow: hidden;
+    list-style:none;
+    float: left;
+}
+
+.character_list_item {
+    float: left;
+    width: 125px;
+    height: 125px;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+.hoverAnim:hover {
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.character_list_items {
+    margin: auto;
+    height: 125px;
+    padding-left: 30px;
+}
+
+.character_backGroup_btn {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/characterBackBtn_off.png");
+    width: 36px;
+    height: 38px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.character_backGroup_btn:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/characterBackBtn_on.png");
+}
+
+.character_list_text {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/rerativeCharacterText.png");
+    width: 106px;
+    height: 91px;
+    margin-left: 40px;
+    margin-right: 4px;
+    margin-top: 10px;
+    float: left;
+}
+
+.group_info {
+    background-image: url("//ap-statics.loas.jp/mm2/platform/images/contents_bg.png");
+    height: 590px;
+    width: 1004px;
+    margin: 50px 0 0 160px;
+    position: relative;
+}
+
+.group_leader_character {
+    width: 204px;
+    height: 425px;
+    float: left;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.group_character_list {
+    width: 480px;
+    height: 425px;
+    float: left;
+    margin-left: 50px;
+}
+
+.group_character {
+    width: 88px;
+    height: 96px;
+    float: left;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.group_new_character_label {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/newCharacter_label.png");
+    width: 19px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.boss_group_info {
+    background-image: url("//ap-statics.loas.jp/mm2/platform/images/contents_bg.png");
+    height: 590px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 110px;
+    position: relative;
+}
+
+.boss_group_character_list {
+    width: 1000px;
+    height: 444px;
+}
+
+.boss_group_character {
+    width: 189px;
+    height: 444px;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sub_page_intro_playenv_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/sub_page_intro_playenv_title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 706px;
+    height: 37px;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.sub_page_intro_download_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/support2_table_line_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 706px;
+    height: 32px;
+    padding-top: 12px;
+    color: #fff;
+    margin: auto;
+}
+
+.sub_page_intro_download_title span{
+    padding-left: 22px;
+    color: #fff;
+    margin: auto;
+}
+
+.sub_page_intro_download_btn {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/sub_menu_common_bg_off.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 239px;
+    height: 54px;
+    color: #fff;
+    text-align: center;
+    line-height: 54px;
+    font-size: 15px;
+    margin: 15px auto 0 auto;
+    cursor: pointer;
+    display: block;
+}
+
+
+
+.sub_page_intro_download_btn:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/sub_menu_common_bg_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.sub_page_intro_download_tips {
+    width: auto;
+    text-align: center;
+    line-height: 34px;
+    font-size: 15px;
+    margin: 0px auto 0px auto;
+    display: block;
+}
+
+.sub_page_intro_download_tips span{
+    color: #fff;
+}
+
+.sub_page_intro_download_tips a{
+    color: dodgerblue;
+}
+
+.sub_page_intro_download_tips a:visited{
+    color: saddlebrown;
+}
+
+.play_env {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/sub_menu_playGuide_playenv.png);
+    height: 648px;
+    width: 576px;
+    margin: 25px auto 0 auto;
+}
+
+.sub_page_notice_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/notice_title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 705px;
+    height: 37px;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.notice_category_list {
+    width: 700px;
+    margin: auto;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.notice_category_item {
+    width: 138px;
+    height: 30px;
+    font-size: 13px;
+    color: #fff;
+    line-height: 31px;
+    text-align: center;
+    float: left;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/notice_page_title_bg.png");
+    background-repeat: no-repeat;
+    margin-right: 2px;
+    cursor: pointer;
+    display: block;
+}
+
+.notice_category_item:hover {
+    background-position: -140px 0;
+    color: #800080;
+    text-decoration: none;
+}
+
+.notice_category_item.on {
+    background-position: -140px 0;
+    color: #800080;
+}
+
+.sub_page_notice_item_list {
+    width: 715px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.sub_page_notice_item {
+    width: 715px;
+    height: 30px;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/notice_page_item_bg.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.sub_page_notice_item_type {
+    width: 68px;
+    height: 18px;
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: -1px;
+    line-height: 18px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.sub_page_notice_items_title {
+    overflow: hidden;
+    font-size: 12px;
+    color: #fff;
+    float: left;
+    width: 500px;
+    padding-top: 6px;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.sub_page_notice_items_date {
+    float: left;
+    font-size: 12px;
+    color: #8bbddb;
+    margin-left: 10px;
+    padding-top: 6px;
+}
+
+.sub_page_transferPage_button {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.sub_page_notice_item_type.item_type_notice {
+    background-color: #007fe7;
+}
+
+.sub_page_notice_item_type.item_type_event {
+    background-color: #df7a0d;
+}
+
+.sub_page_notice_item_type.item_type_maintenance {
+    background-color: #60a60e;
+}
+
+.sub_page_notice_item_type.item_type_update {
+    background-color: #a60e1c;
+}
+
+.sub_page_topic_title {
+    width: 680px;
+    height: 33px;
+    margin: auto;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/sub_page_topic_title_bg.png");
+    padding-top: 17px;
+}
+
+.sub_page_notice_contents_title {
+    overflow: hidden;
+    font-size: 14px;
+    color: #fff;
+    float: left;
+    width: 460px;
+    margin-top: 3px;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.sub_page_notice_contents_date {
+    float: left;
+    font-size: 14px;
+    color: #8bbddb;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.sub_page_topic_contents {
+    width: 680px;
+    margin: auto;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 25px;
+}
+
+.character_items_list_full {
+    width: 490px;
+    height: 315px;
+    margin: auto;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/character_full_1.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-top: 60px;
+    cursor: pointer;
+}
+
+.sub_page_charge_cp_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/sub_page_charge_cp_title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 706px;
+    height: 37px;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.sub_page_charge_cp_contents {
+    width: 630px;
+    height: 700px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.sub_page_point_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/sub_page_point_title.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 706px;
+    height: 38px;
+    padding-top: 12px;
+    margin: auto;
+}
+
+.point_subpage_line1 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/point_line1_bg.png");
+    width: 666px;
+    height: 126px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.pointmall_button {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/pointmall_off.png");
+    width: 219px;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.pointmall_button:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/pointmall_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.point_subpage_line2 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/point_line2_bg.png");
+    width: 664px;
+    height: 301px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.point_subpage_line3 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/point_line3_bg.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 666px;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+.point_item_list {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 700px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.point_item_list td {
+    border: 1px solid black;
+}
+
+.point_item_list th {
+    border: 1px solid black;
+}
+
+.point_item_list th {
+    background-color: #eac9ff;
+    height: 40px;
+}
+
+.point_item_list td {
+    background-color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 17px;
+}
+
+.point_item_list img {
+    margin-left: 5px;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 48px;
+    height: 48px;
+}
+
+.point_buy_button {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/point_buy_button_off.png");
+    width: 86px;
+    height: 30px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.point_buy_button:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/point_buy_button_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.point_popup {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/point_buy_confirm_bg.png");
+    width: 551px;
+    height: 276px;
+    padding-top: 25px;
+}
+
+.point_popup_title {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/point_buy_confirm_title.png");
+    width: 317px;
+    height: 49px;
+    margin: auto;
+}
+
+.point_popup_item {
+    width: 551px;
+    height: 100px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.point_popup_error {
+    width: 551px;
+    height: 100px;
+    color: #ff0000;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.point_popup_item img{
+    margin-left: 80px;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.point_button_confirm_area {
+    width: 159px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 20px;
+    float: left;
+}
+
+.point_item_buy_button {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/point_item_buy_off.png");
+    height: 37px;
+    width: 159px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.point_item_buy_button:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/point_item_buy_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.point_button_cancel_area {
+    width: 159px;
+    padding-left: 40px;
+    padding-top: 35px;
+    float: left;
+}
+
+.point_button_cancel_area_error {
+    width: 159px;
+    margin: auto;
+}
+
+.point_item_cancel_button {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/point_item_cancel_off.png");
+    width: 159px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.point_item_cancel_button:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/point_item_cancel_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.point_popup_comp_title {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/point_buy_comp_title.png");
+    width: 317px;
+    height: 49px;
+    margin: auto;
+}
+
+.point_button_goon {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/point_item_buy_goon_off.png");
+    width: 159px;
+    height: 37px;
+    float: left;
+    margin-left: 95px;
+    cursor: pointer;
+}
+
+.point_button_goon:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/point_item_buy_goon_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.point_button_history {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/point_item_buy_history_off.png");
+    width: 159px;
+    height: 37px;
+    float: left;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.point_button_history:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/point_item_buy_history_on.png);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.point_code {
+    width: 300px;
+    height: 25px;
+    background-color: #000;
+    font-size: 12px;
+    line-height: 25px;
+    float: left;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.point_code_area_words {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    float: left;
+    margin-left: 25px;
+    margin-right: 5px;
+    line-height: 25px;
+}
+
+.point_copy_button {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/point_copy_button_off.png");
+    height: 25px;
+    width: 40px;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.point_code_area_words_note {
+    width: 420px;
+    height: 15px;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.point_code_area_line1 {
+    width: 550px;
+    height: 30px;
+}
+
+.point_popup_item_comp {
+    width: 551px;
+    height: 80px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.point_popup_item_comp img{
+    margin-left: 80px;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.point_history_title {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/point_history_title.png);
+    width: 668px;
+    height: 44px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.wrapper_server_list {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/server_list_bg.png");
+    width: 450px;
+    height: 560px;
+    padding-top: 40px;
+}
+
+.server_list_title {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/server_list_title.png");
+    width: 210px;
+    height: 33px;
+    margin: auto;
+}
+
+.server_area {
+    width: 350px;
+    height: 430px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.server_item {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/server_off.jpg");
+    width: 300px;
+    height: 60px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+}
+
+.server_item_area {
+    width: 350px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.server_item_area img {
+    display: inline;
+    float: left;
+    margin-top: 10px;
+}
+
+.server_item:hover {
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/server_on.jpg);
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.server_area_bottom {
+    width: 850px;
+    height: 50px;
+    margin-left: 55px;
+}
+
+.version_btn {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/server_list_normal_off_c5.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+    width: 123px;
+    height: 20px;
+    padding: 16px 0 0 27px;
+    margin: 0 13px 7px 0;
+    font-size: 14px;
+}
+
+
+.version_btn:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/server_list_normal_on_c5.png");
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.exe_version {
+    float: left;
+}
+.flash_version{
+    float: right;
+    margin: 0 48px 7px 0;
+}
+
+.wrapper_server_list_new {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/server_list_bg_new.png");
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 600px;
+    padding-top: 0px;
+}
+
+.server_list_recommended {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/recommended.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 500px;
+    height: 105px;
+    margin: auto;
+    padding-left: 190px
+}
+
+.server_list_recommended_item {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/server_list_hot_off.png");
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 25px;
+    width: 293px;
+    height: 89px;
+    line-height: 115px;
+    padding-left: 105px;
+    cursor: pointer;
+}
+
+.server_list_recommended_item:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/server_list_hot_on.png");
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.server_area_new {
+    width: 850px;
+    height: 350px;
+    margin-left: 55px;
+    margin-top: 20px;
+    overflow-y: scroll;
+}
+
+.server_item_normal {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/server_list_normal_off_c5.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+    width: 123px;
+    height: 20px;
+    padding: 16px 0 0 27px;
+    font-size: 14px;
+    margin: 0 13px 7px 0;
+}
+
+.server_item_normal:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/server_list_normal_on_c5.png");
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.server_item_new {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/server_list_new_off_c5.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+    width: 126px;
+    height: 20px;
+    padding: 16px 0 0 24px;
+    font-size: 14px;
+    margin: 0 13px 7px 0;
+}
+
+.server_item_new:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/server_list_new_on_c5.png");
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.sub_page_diamond {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.sub_page_diamond_title {
+    background-image: url("/images/diamondCharge/charge_title.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: auto;
+    height: 40px;
+}
+.sub_page_diamond_content1 {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.81);
+    width: auto;
+    height: auto;
+    line-height: 18px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.sub_page_diamond_coin_count {
+    margin-top: 20px;
+}
+
+.sub_page_diamond_coin_count td{
+    border:1px solid #ece6e6;
+    width: 700px;
+    height: 60px;
+    align-content: center;
+    text-align: center;
+    color: #e2dbdb;
+    background: rgba(0, 0, 0, 0.96);
+}
+
+.sub_page_diamond_coin_buy_button {
+    background-image: url("/images/diamondCharge/buy_coin.png");
+    width: 250px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 220px;
+    cursor: pointer;
+}
+
+.sub_page_diamond_coin_buy_button:hover {
+    background-image: url("/images/diamondCharge/buy_coin.png");
+    transition: 0.4s;
+    -moz-transition: 0.4s;
+    /* Firefox 4 */
+    -webkit-transition: 0.4s;
+    /* Safari and Chrome */
+    -o-transition: 0.4s;
+    /* Opera */
+}
+
+.sub_page_diamond_server_select_title {
+    background-image: url("/images/diamondCharge/charge_user_select.png");
+    width: 250px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 220px;
+}
+
+.sub_page_diamond_purchase_title {
+    background-image: url("/images/diamondCharge/charge_purchase.png");
+    width: 250px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 220px;
+}
+
+.sub_page_diamond_list {
+    display: block;
+}
+
+.sub_page_diamond_item {
+    background-image: url("/images/diamondCharge/diamond_item.png");
+    display: block;
+    width: 156px;
+    height: 135px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.sub_page_diamond_item_count {
+    display: block;
+    width: 156px;
+    height: auto;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 18px;
+}
+
+.sub_page_diamond_item_coin_count1 {
+    display: block;
+    width: 156px;
+    height: auto;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: #8c8c8c;
+    margin-top: 42px;
+    font-size: 8px;
+}
+
+.sub_page_diamond_item_coin_count2 {
+    display: block;
+    width: 156px;
+    height: auto;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 12px;
+}

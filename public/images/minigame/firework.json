@@ -1,3 +1,99 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d18dcd31f51bec6774de1e15e5e90ab98ae25fdc1645c2373bcae45da3d794c9
-size 2255
+﻿{"frames": {
+
+"firework0000":
+{
+	"frame": {"x":0,"y":0,"w":95,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":347,"y":348,"w":790,"h":790},
+	"sourceSize": {"w":790,"h":790}
+},
+"firework0001":
+{
+	"frame": {"x":95,"y":0,"w":420,"h":420},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":185,"y":185,"w":790,"h":790},
+	"sourceSize": {"w":790,"h":790}
+},
+"firework0002":
+{
+	"frame": {"x":515,"y":0,"w":445,"h":445},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":172,"y":173,"w":790,"h":790},
+	"sourceSize": {"w":790,"h":790}
+},
+"firework0003":
+{
+	"frame": {"x":960,"y":0,"w":548,"h":548},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":121,"y":121,"w":790,"h":790},
+	"sourceSize": {"w":790,"h":790}
+},
+"firework0004":
+{
+	"frame": {"x":0,"y":548,"w":581,"h":581},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":104,"y":105,"w":790,"h":790},
+	"sourceSize": {"w":790,"h":790}
+},
+"firework0005":
+{
+	"frame": {"x":581,"y":548,"w":614,"h":614},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":88,"y":88,"w":790,"h":790},
+	"sourceSize": {"w":790,"h":790}
+},
+"firework0006":
+{
+	"frame": {"x":1195,"y":548,"w":678,"h":678},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":56,"y":56,"w":790,"h":790},
+	"sourceSize": {"w":790,"h":790}
+},
+"firework0007":
+{
+	"frame": {"x":0,"y":1226,"w":715,"h":715},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":38,"w":790,"h":790},
+	"sourceSize": {"w":790,"h":790}
+},
+"firework0008":
+{
+	"frame": {"x":715,"y":1226,"w":752,"h":752},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":790,"h":790},
+	"sourceSize": {"w":790,"h":790}
+},
+"firework0009":
+{
+	"frame": {"x":0,"y":1978,"w":790,"h":790},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":790,"h":790},
+	"sourceSize": {"w":790,"h":790}
+},
+"firework0010":
+{
+	"frame": {"x":790,"y":1978,"w":790,"h":790},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":790,"h":790},
+	"sourceSize": {"w":790,"h":790}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "16.0.0.112",
+	"image": "hnb.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":4096},
+	"scale": "1"
+}
+}

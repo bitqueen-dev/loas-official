@@ -1,3 +1,128 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:649ed3352f65fb3cad768f051354b2536440709ac710ef6b4fe946ecab3904c0
-size 2541
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "メイリオ", "Hiragino Kaku Gothic Pro", Meiryo, "ヒラギノ角ゴ Pro W3", "MS PGothic", "MS UI Gothic", Helvetica, Arial, sans-serif;
+    background-color: #ad9dd7;
+}
+
+img {
+    border: 0;
+}
+
+div {
+    display: block;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.isobe-keiko_line1 {
+    background-image: url("/images/casting/isobe-keiko_line1_bg.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 856px;
+    overflow: hidden;
+}
+
+.isobe-keiko_line1_contents {
+    background-image: url("/images/casting/isobe-keiko_line1_contents.png");
+    width: 876px;
+    height: 616px;
+    margin-top: 168px;
+    margin-left: 180px;
+}
+
+.isobe-keiko_line2 {
+    background-image: url("/images/casting/isobe-keiko_line2_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 1200px;
+    height: 271px;
+    padding-top: 10px;
+}
+
+.isobe-keiko_line3 {
+    height: 130px;
+    width: 1200px;
+    line-height: 100px;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.isobe-keiko_line4 {
+    background-image: url(/images/casting/isobe-keiko_line4_bg.png);
+    height: 529px;
+    width: 897px;
+    color: #000;
+    font-size: 28px;
+    line-height: 45px;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: auto;
+}
+
+.first_word {
+    font-size: 40px;
+    color: #a52b98;
+}
+
+.isobe-keiko_line5 {
+    background-image: url("/images/casting/isobe-keiko_line5_bg.png");
+    height: 680px;
+    width: 1200px;
+    margin-bottom: 50px;
+}
+
+.isobe-keiko_line6 {
+    width: 940px;
+    margin: auto;
+}
+
+.isobe-keiko_line6_head {
+    background-image: url("/images/casting/isobe-keiko_line6_head_bg.png");
+    height: 25px;
+}
+
+.isobe-keiko_line6_foot {
+    background-image: url("/images/casting/isobe-keiko_line6_foot_bg.png");
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.isobe-keiko_line6_body {
+    background-color: #ffe0f7;
+}
+
+.q {
+    color: #0f9df8;
+    font-size: 19px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.a {
+    color: #a53386;
+    font-size: 19px;
+    margin-left: 35px;
+}
+
+.isobe-keiko_line7 {
+    background-image: url("/images/casting/isobe-keiko_line7_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 1257px;
+    width: 1200px;
+    margin-top: 45px;
+    overflow: hidden;
+}
+
+.share_contents {
+    text-align: center;
+    margin-top: 870px;
+}

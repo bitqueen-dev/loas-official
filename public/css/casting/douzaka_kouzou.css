@@ -1,3 +1,129 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c2c39720d4f485b3b884e198af81bdc29eb5396178c7b5920e17c990fc176a38
-size 2637
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "メイリオ", "Hiragino Kaku Gothic Pro", Meiryo, "ヒラギノ角ゴ Pro W3", "MS PGothic", "MS UI Gothic", Helvetica, Arial, sans-serif;
+    background-color: #eda774;
+}
+
+img {
+    border: 0;
+}
+
+div {
+    display: block;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.douzaka_kouzou_line1 {
+    background-image: url("/images/casting/douzaka_kouzou_line1_bg.png");
+    width: 1200px;
+    height: 856px;
+    overflow: hidden;
+}
+
+.douzaka_kouzou_line1_contents {
+    background-image: url("/images/casting/douzaka_kouzou_line1_contents.png");
+    width: 860px;
+    height: 616px;
+    margin-top: 168px;
+    margin-left: 180px;
+}
+
+.douzaka_kouzou_line2 {
+    background-image: url("/images/casting/douzaka_kouzou_line2_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 1200px;
+    height: 271px;
+    padding-top: 10px;
+}
+
+.douzaka_kouzou_line3 {
+    height: 130px;
+    width: 1200px;
+    line-height: 100px;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.douzaka_kouzou_line4 {
+    background-image: url(/images/casting/douzaka_kouzou_line4_bg.png);
+    width: 897px;
+    height: 466px;
+    color: #000;
+    font-size: 22px;
+    line-height: 60px;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: auto;
+}
+
+.first_word_douzaka_kouzou {
+    font-size: 40px;
+    color: #ab2607;
+}
+
+.douzaka_kouzou_line5 {
+    background-image: url("/images/casting/douzaka_kouzou_line5_bg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 1200px;
+    margin-top: 40px;
+    padding-top: 480px;
+}
+
+.douzaka_kouzou_line6 {
+    width: 940px;
+    margin: auto;
+}
+
+.douzaka_kouzou_line6_head {
+    background-image: url("/images/casting/douzaka_kouzou_line6_head_bg.png");
+    height: 25px;
+}
+
+.douzaka_kouzou_line6_foot {
+    background-image: url("/images/casting/douzaka_kouzou_line6_foot_bg.png");
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.douzaka_kouzou_line6_body {
+    background-color: #f6dfda;
+}
+
+.q {
+    color: #0f9df8;
+    font-size: 19px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.a {
+    color: #ab2607;
+    font-size: 19px;
+    margin-left: 35px;
+}
+
+.douzaka_kouzou_line7 {
+    background-image: url("/images/casting/douzaka_kouzou_line7_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 459px;
+    width: 1200px;
+    padding-top: 45px;
+    overflow: hidden;
+}
+
+.share_contents {
+    text-align: center;
+    padding-top: 70px;
+}

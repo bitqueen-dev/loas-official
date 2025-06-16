@@ -1,3 +1,447 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:54af371d4d5e2962714bcc6982c7337a65996b43472b93df6ed5ce1cafb9c3c4
-size 10021
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "メイリオ","Hiragino Kaku Gothic Pro",Meiryo,"ヒラギノ角ゴ Pro W3","MS PGothic","MS UI Gothic",Helvetica,Arial,sans-serif;
+}
+
+html {
+    /*background: url("//ap-statics.loas.jp/mm2/official/images/ministop/bg.jpg") no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top {
+    background: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/topBg.png") top center no-repeat;
+    min-width: 1200px;
+    background-size: 1200px 571px;
+}
+
+.top_contents {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    height: 600px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 52px;
+    width: 250px;
+    height: 103px;
+    background-image: url(//ap-statics.loas.jp/mm2/official/images/logo_1x.png);
+    cursor: pointer;
+}
+
+.luluPopupBtn {
+    position: absolute;
+    top: 340px;
+    left: 300px;
+    width: 149px;
+    height: 76px;
+    cursor: pointer;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/luluPopupBtnOff.png");
+}
+
+.luluPopupBtn:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/luluPopupBtnOn.png");
+}
+
+.ishaPopupBtn {
+    position: absolute;
+    top: 340px;
+    right: 300px;
+    width: 149px;
+    height: 76px;
+    cursor: pointer;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/ishaPopupBtnOff.png");
+}
+
+.ishaPopupBtn:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/ishaPopupBtnOn.png");
+}
+
+.joinCp {
+    width: 1200px;
+    margin: auto;
+}
+
+.joinCpBtn {
+    display: block;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/cpJoinBtnOn.png");
+    width: 411px;
+    height: 70px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.hoverAnim:hover {
+    transition: 0.4s;
+    -moz-transition: 0.4s; /* Firefox 4 */
+    -webkit-transition: 0.4s; /* Safari and Chrome */
+    -o-transition: 0.4s; /* Opera */
+}
+
+.joinCpBtn:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/cpJoinBtnOff.png");
+}
+
+.joinCp_word{
+    display: block;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+
+.intro_area {
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 1200px;
+    height: 169px;
+    margin-top: 50px;
+}
+
+.intro_btn {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 274px;
+    height: 169px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.intro_cp_1 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/cp_1_moveBtnOff.png");
+}
+
+.intro_cp_1:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/cp_1_moveBtnOn.png");
+}
+
+.intro_cp_2 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/cp_2_moveBtnOff.png");
+}
+
+.intro_cp_2:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/cp_2_moveBtnOn.png");
+}
+
+.intro_cp_3 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/cp_3_moveBtnOff.png");
+}
+
+.intro_cp_3:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/cp_3_moveBtnOn.png");
+}
+
+.cp_area_1 {
+    margin: auto;
+    margin-top: 80px;
+    width: 1200px;
+    height: 650px;
+    position: relative;
+}
+
+.headline {
+    width: 983px;
+    height: 38px;
+    margin: auto;
+}
+
+.cp_1_headline {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/headline_1.png");
+}
+
+
+.cp_1_content_1 {
+    width: 821px;
+    height: 416px;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/content_cp1_1.png");
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.cp_1_text_1 {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: right;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+
+.cp_1_startBtn {
+    width: 354px;
+    height: 56px;
+    margin: auto;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/gameStartBtnWideOff.png");
+    cursor: pointer;
+}
+
+.cp_1_startBtn:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/gameStartBtnWideOn.png");
+}
+
+.cp_1_howToBtn {
+    width: 206px;
+    height: 34px;
+    position: absolute;
+    right: 12px;
+    top: 22px;
+    cursor: pointer;
+}
+
+.toTopBtn {
+    width: 174px;
+    height: 41px;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/toTopBtnOff.png");
+    position: absolute;
+    right: 100px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.toTopBtn:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/toTopBtnOn.png");
+}
+
+.cp_area_2 {
+    margin: auto;
+    margin-top: 50px;
+    width: 1200px;
+    height: 1900px;
+    position: relative;
+}
+
+.cp_2_headline {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/headline_2.png");
+}
+
+.cp_2_content_1 {
+    width: 1200px;
+    height: 350px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    display: block;
+}
+
+.cp_2_word_1 {
+    width: 805px;
+    height: 35px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/content_cp2_1.png");
+}
+
+.reward {
+    width: 176px;
+    height: 257px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.reward10 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/reward10None.png");
+}
+
+.reward20 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/reward20None.png");
+}
+
+.reward30 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/reward30None.png");
+}
+
+.reward40 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/reward40None.png");
+}
+
+.reward50 {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/reward50None.png");
+}
+
+.cp_2_content_2 {
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    display: block;
+}
+
+.cp_2_word_2 {
+    width: 443px;
+    height: 37px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/content_cp2_2.png");
+}
+
+.cp_2_condition {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}
+
+.cp_2_condition table {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}
+
+.cp_2_btn {
+    width: 258px;
+    height: 49px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.cp_2_tweet_btn {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/tweetBtnMiniOff.png");
+}
+
+.cp_2_tweet_btn:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/tweetBtnMiniOn.png");
+}
+
+.cp_2_highAndLow_btn {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/playHighAndLowBtnOff.png");
+}
+
+.cp_2_highAndLow_btn:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/playHighAndLowBtnOn.png");
+}
+
+.cp_2_buyCoin_btn {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/buyCoinBtnOff.png");
+}
+
+.cp_2_buyCoin_btn:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/buyCoinBtnOn.png");
+}
+
+.cp_2_content_3 {
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#game canvas {
+    margin: auto;
+}
+
+.cp_area_3 {
+    margin: auto;
+    margin-top: 50px;
+    width: 1200px;
+    /*height: 1200px;*/
+    height: 700px;
+    position: relative;
+}
+
+.cp_3_headline {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/headline_3.png");
+}
+
+.cp_3_content_1 {
+    margin: auto;
+    margin-top: 30px;
+    width: 948px;
+    height: 376px;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/content_cp3_1.png");
+    position: relative;
+}
+
+.cp_3_detailBtn {
+    width: 288px;
+    height: 61px;
+    position: absolute;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/showDetailBtnOff.png");
+    cursor: pointer;
+    bottom: 50px;
+}
+
+.cp_3_detailBtn:hover {
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/showDetailBtnOn.png");
+}
+
+.cp_3_twitterBtn {
+    width: 408px;
+    height: 63px;
+    background-image: url("//ap-statics.loas.jp/mm2/official/images/campaign_1712/followBtn.png");
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+/*
+.cp_3_content_2 {
+    margin: auto;
+    width: 900px;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cp_3_youtube {
+    margin: auto;
+    width: 800px;
+    height: 445px;
+    background-color: rgba(255,0,0,0.5);
+}
+*/
+
+.copyright {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gameStartBtn {
+    width: 148px;
+    height: 149px;
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    background-image: url('//ap-statics.loas.jp/mm2/official/images/campaign_1712/gameStartBtnCircleOff.png');
+    cursor: pointer;
+}
+
+.gameStartBtn:hover {
+    background-image: url('//ap-statics.loas.jp/mm2/official/images/campaign_1712/gameStartBtnCircleOn.png');
+}
+
+
+.selectArea {
+    background: url(//ap-statics.loas.jp/mm2/public/select.png) no-repeat 96% 0;
+    background-color: #eac9ff;
+    height: 29px;
+    overflow: hidden;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.selectArea select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px;
+    width: 428px;
+}

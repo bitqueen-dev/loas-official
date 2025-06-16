@@ -1,3 +1,126 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:019ec9d35f9b78d77c1c7017abc38b25e46165105c6aa282192075bfaa26472f
-size 2498
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "メイリオ", "Hiragino Kaku Gothic Pro", Meiryo, "ヒラギノ角ゴ Pro W3", "MS PGothic", "MS UI Gothic", Helvetica, Arial, sans-serif;
+    background-color: #ad9dd7;
+}
+
+img {
+    border: 0;
+}
+
+div {
+    display: block;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.sakura_ayane_line1 {
+    background-image: url("/images/casting/sakura_ayane_line1_bg.png");
+    width: 1200px;
+    height: 856px;
+    overflow: hidden;
+}
+
+.sakura_ayane_line1_contents {
+    background-image: url("/images/casting/sakura_ayane_line1_contents.png");
+    width: 901px;
+    height: 616px;
+    margin-top: 168px;
+    margin-left: 180px;
+}
+
+.sakura_ayane_line2 {
+    background-image: url("/images/casting/sakura_ayane_line2_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 1200px;
+    height: 271px;
+    padding-top: 10px;
+}
+
+.sakura_ayane_line3 {
+    height: 130px;
+    width: 1200px;
+    line-height: 100px;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sakura_ayane_line4 {
+    background-image: url(/images/casting/sakura_ayane_line4_bg.png);
+    height: 489px;
+    width: 1040px;
+    color: #000;
+    font-size: 23px;
+    line-height: 50px;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.first_word {
+    font-size: 40px;
+    color: #895b9e;
+}
+
+.sakura_ayane_line5 {
+    background-image: url("/images/casting/sakura_ayane_line5_bg.png");
+    width: 1200px;
+    margin-top: 40px;
+    padding-top: 500px;
+}
+
+.sakura_ayane_line6 {
+    width: 940px;
+    margin: auto;
+}
+
+.sakura_ayane_line6_head {
+    background-image: url("/images/casting/sakura_ayane_line6_head_bg.png");
+    height: 25px;
+}
+
+.sakura_ayane_line6_foot {
+    background-image: url("/images/casting/sakura_ayane_line6_foot_bg.png");
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.sakura_ayane_line6_body {
+    background-color: #eeecff;
+}
+
+.q {
+    color: #0f9df8;
+    font-size: 19px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.a {
+    color: #a53386;
+    font-size: 19px;
+    margin-left: 35px;
+}
+
+.sakura_ayane_line7 {
+    background-image: url("/images/casting/sakura_ayane_line7_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 1256px;
+    width: 1200px;
+    padding-top: 45px;
+    overflow: hidden;
+}
+
+.share_contents {
+    text-align: center;
+    padding-top: 870px;
+}

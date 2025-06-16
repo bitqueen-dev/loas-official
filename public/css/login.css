@@ -1,3 +1,88 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:898384c219e6141da909f689638b6981a67970e8a6471c5188f9c8c3ab3c9604
-size 1480
+html, body {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: "メイリオ", "Hiragino Kaku Gothic Pro", Meiryo, "ヒラギノ角ゴ Pro W3", "MS PGothic", "MS UI Gothic", Helvetica, Arial, sans-serif;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    font-size: 14px;
+}
+
+img {
+    border: 0;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.wrapper {
+    background-image: url("../images/openid_popup_bg.png");
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 225px;
+    padding-top: 93px;
+}
+
+.contents {
+    width: 100%;
+    height: 100%;
+}
+
+.words {
+    font-size: 14px;
+    line-height: 15px;
+    margin-left: 100px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.openid_area {
+    height: 152px;
+    width: 602px;
+    margin: 15px 0 0 112px;
+}
+
+.openid {
+    height: 52px;
+    width: 177px;
+    cursor: pointer;
+    float: left;
+}
+
+.yahoo {
+    background-image: url("../images/yahoo.png");
+}
+
+.google {
+    background-image: url("../images/google.png");
+    margin-left: 21px;
+}
+
+.twitter {
+    background-image: url("../images/twitter.png");
+    margin-left: 21px;
+}
+
+.facebook {
+    background-image: url("../images/facebook.png");
+    margin-top: 20px;
+}

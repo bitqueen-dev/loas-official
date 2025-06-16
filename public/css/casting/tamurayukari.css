@@ -1,3 +1,139 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a2194b4bc0a7d7aa15bdbf2a0fc9b3471cd85a76c16e06d1fa58fa04f86f06bd
-size 2851
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "メイリオ", "Hiragino Kaku Gothic Pro", Meiryo, "ヒラギノ角ゴ Pro W3", "MS PGothic", "MS UI Gothic", Helvetica, Arial, sans-serif;
+    background-color: #eda774;
+}
+
+img {
+    border: 0;
+}
+
+div {
+    display: block;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.tamurayukari_line1 {
+    background-image: url("/images/casting/tamurayukari_line1_bg.png");
+    width: 1200px;
+    height: 856px;
+    overflow: hidden;
+}
+
+.tamurayukari_line1_contents {
+    background-image: url("/images/casting/tamurayukari_line1_contents.png");
+    width: 860px;
+    height: 616px;
+    margin-top: 168px;
+    margin-left: 180px;
+}
+
+.tamurayukari_line2 {
+    background-image: url("/images/casting/tamurayukari_line2_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 1200px;
+    height: 271px;
+    padding-top: 10px;
+}
+
+.tamurayukari_line3 {
+    height: 130px;
+    width: 1200px;
+    line-height: 100px;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tamurayukari_line4 {
+    background-image: url(/images/casting/tamurayukari_line4_bg.png);
+    width: 897px;
+    height: 426px;
+    color: #000;
+    font-size: 22px;
+    line-height: 60px;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: auto;
+}
+
+.first_word_tamurayukari {
+    font-size: 40px;
+    color: #ab2607;
+}
+
+.tamurayukari_line5 {
+    background-image: url("/images/casting/tamurayukari_line5_bg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 1200px;
+    margin-top: 40px;
+    padding-top: 480px;
+}
+
+.tamurayukari_line6 {
+    width: 940px;
+    margin: auto;
+}
+
+.tamurayukari_line6_head {
+    background-image: url("/images/casting/tamurayukari_line6_head_bg.png");
+    height: 25px;
+}
+
+.tamurayukari_line6_foot {
+    background-image: url("/images/casting/tamurayukari_line6_foot_bg.png");
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.tamurayukari_line6_body {
+    background-color: #f6dfda;
+}
+
+.q {
+    color: #0f9df8;
+    font-size: 19px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.a {
+    color: #ab2607;
+    font-size: 19px;
+    margin-left: 35px;
+}
+
+.tamurayukari_line7 {
+    background-image: url("/images/casting/tamurayukari_line7_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 789px;
+    width: 1200px;
+    padding-top: 45px;
+    overflow: hidden;
+}
+
+.tamurayukari_line8 {
+    background-image: url("/images/casting/tamurayukari_line8_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 459px;
+    width: 1200px;
+    padding-top: 45px;
+    overflow: hidden;
+}
+
+.share_contents {
+    text-align: center;
+    padding-top: 70px;
+}

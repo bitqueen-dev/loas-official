@@ -1,3 +1,127 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:708b67895022a13743529fb94aa0853dda25ad78987434a462b14bbc89783456
-size 2442
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "メイリオ", "Hiragino Kaku Gothic Pro", Meiryo, "ヒラギノ角ゴ Pro W3", "MS PGothic", "MS UI Gothic", Helvetica, Arial, sans-serif;
+    background-color: #ad9dd7;
+}
+
+img {
+    border: 0;
+}
+
+div {
+    display: block;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.pakuromi_line1 {
+    background-image: url("/images/casting/pakuromi_line1_bg.png");
+    width: 1200px;
+    height: 856px;
+    overflow: hidden;
+}
+
+.pakuromi_line1_contents {
+    background-image: url("/images/casting/pakuromi_line1_contents.png");
+    width: 865px;
+    height: 619px;
+    margin-top: 168px;
+    margin-left: 180px;
+}
+
+.pakuromi_line2 {
+    background-image: url("/images/casting/pakuromi_line2_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 1200px;
+    height: 283px;
+    padding-top: 10px;
+}
+
+.pakuromi_line3 {
+    height: 130px;
+    width: 1200px;
+    line-height: 100px;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pakuromi_line4 {
+    background-image: url(/images/casting/pakuromi_line4_bg.png);
+    height: 489px;
+    width: 1040px;
+    color: #000;
+    font-size: 24px;
+    line-height: 65px;
+    font-weight: 600;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.first_word {
+    font-size: 40px;
+    color: #895b9e;
+}
+
+.pakuromi_line5 {
+    background-image: url("/images/casting/pakuromi_line5_bg.png");
+    height: 712px;
+    width: 1200px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.pakuromi_line6 {
+    width: 940px;
+    margin: auto;
+}
+
+.pakuromi_line6_head {
+    background-image: url("/images/casting/pakuromi_line6_head_bg.png");
+    height: 25px;
+}
+
+.pakuromi_line6_foot {
+    background-image: url("/images/casting/pakuromi_line6_foot_bg.png");
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.pakuromi_line6_body {
+    background-color: #eeecff;
+}
+
+.q {
+    color: #0f9df8;
+    font-size: 19px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.a {
+    color: #a53386;
+    font-size: 19px;
+    margin-left: 35px;
+}
+
+.pakuromi_line7 {
+    background-image: url("/images/casting/pakuromi_line7_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 1219px;
+    width: 1200px;
+    padding-top: 45px;
+    overflow: hidden;
+}
+
+.share_contents {
+    text-align: center;
+    padding-top: 870px;
+}
