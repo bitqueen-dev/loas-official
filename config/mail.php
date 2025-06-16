@@ -88,7 +88,7 @@ return [
     */
 
 //    'username' => env('MAIL_USERNAME'),
-    'username' => 'support@loas.jp',
+    'username' => 'support_mailer@easygame.jp',
 
     /*
     |--------------------------------------------------------------------------
@@ -101,7 +101,7 @@ return [
     |
     */
 
-    'password' => 'bitqueen4610',//env('MAIL_PASSWORD'),
+    'password' => '3TY-eHzkNNtbg8_',//env('MAIL_PASSWORD'),
 
     /*
     |--------------------------------------------------------------------------
