@@ -101,7 +101,7 @@ return [
     |
     */
 
-    'password' => 'woopieno1',//env('MAIL_PASSWORD'),
+    'password' => 'bitqueen4610',//env('MAIL_PASSWORD'),
 
     /*
     |--------------------------------------------------------------------------
